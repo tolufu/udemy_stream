@@ -20,7 +20,7 @@ st.write(f"""
 こちらは株価可視化ツールです。以下のオプションから表示日数を指定してください。
 """)
 
-@st.cache_data
+@st.cache
 def get_stock_close_data(ticker_symbol, days, new_column_name='Close', lookback_increment=30):
     """
     指定されたティッカーシンボルと営業日数に基づいて、'Close'カラムのみを取得する関数。
