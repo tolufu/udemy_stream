@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import yfinance as yf
 from datetime import datetime
@@ -178,4 +177,3 @@ option = st.selectbox(
 if st.checkbox('Show Image'):
     img = Image.open('sample.png')
     st.image(img,caption='Sample',use_column_width=True)
->>>>>>> cba5fa961b79b009251ef99dbfb76249a6f754a3
